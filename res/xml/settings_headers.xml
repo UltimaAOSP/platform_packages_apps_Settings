@@ -111,6 +111,7 @@
         android:title="@string/app_ops_settings"
         android:id="@+id/appops_settings" />
 
+
     <!-- Manage users -->
     <header
         android:fragment="com.android.settings.users.UserSettings"
@@ -191,6 +192,22 @@
     <!-- SYSTEM -->
     <header android:id="@+id/system_section"
         android:title="@string/header_category_system" />
+    
+    <!-- UltimaControl Settings -->
+    <header
+        android:title="@string/ultima_settings"
+        android:icon="@drawable/ic_ultima_settings">
+        <intent android:targetPackage="com.ultima.settings"
+        android:targetClass="com.ultima.settings.SettingsActivity" />
+    </header>
+    
+    <!-- PerformanceControl Settings -->
+    <header
+        android:title="@string/ultima_performance"
+        android:icon="@drawable/ic_performance">
+        <intent android:targetPackage="com.brewcrewfoo.performance"
+        android:targetClass="com.brewcrewfoo.performance.activities.MainActivity" />
+    </header>
 
     <!-- Date & Time -->
     <header

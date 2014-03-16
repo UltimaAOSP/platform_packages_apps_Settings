@@ -4915,7 +4915,8 @@
     <!-- Bluetooth accept all Filestypes -->
     <string name="bluetooth_accept_all_files">Accept all file types</string>
 
-    <!-- UltimaAOSP About Device Header -->
-    <string name="ultima_settings">ROM</string>
-
+    <!-- UltimaAOSP Control Header -->
+    <string name="ultima_settings">ROM Control</string>
+    <string name="ultima_performance">Performance</string>
+    
 </resources>
